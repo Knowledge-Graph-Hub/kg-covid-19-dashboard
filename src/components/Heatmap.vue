@@ -37,7 +37,7 @@ export default {
   },
   mounted() {
     this.makeHeatMap('node-heatmap', 'node_stats', 'count_by_category');
-    this.makeHeatMap('edge-heatmap', 'edge_stats', 'count_by_edge_label');
+    this.makeHeatMap('edge-heatmap', 'edge_stats', 'count_by_predicates');
   },
   methods: {
     makeHeatMap(plotDiv, statType, countType) {
