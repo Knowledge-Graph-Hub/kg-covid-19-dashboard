@@ -61,11 +61,11 @@ export default {
       };
 
       // Get data from this.stats
-      const data = Object.keys(this.stats.edge_stats.count_by_edge_label).map((cat) => {
+      const data = Object.keys(this.stats.edge_stats.count_by_predicates).map((cat) => {
         const category = cat
           .replace('biolink:', '')
           .replace(/_/g, ' ');
-        const catCount = this.stats.edge_stats.count_by_edge_label[cat].count;
+        const catCount = this.stats.edge_stats.count_by_predicates[cat].count;
         return [category, catCount];
       });
 

@@ -5,7 +5,7 @@ A dashboard for viewing statistics on the KG COVID-19 database
 ## Project setup
 
 ```
-nvm use v 14.8.0
+nvm use v 14.15.0
 ```
 
 ```

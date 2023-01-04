@@ -167,8 +167,8 @@ export default {
     this.nodeCount = this.stats.node_stats.total_nodes.toLocaleString();
     this.nodeCategories = this.stats.node_stats.node_categories.length.toLocaleString();
     this.edgeCount = this.stats.edge_stats.total_edges.toLocaleString();
-    this.edgeCategories = this.stats.edge_stats.edge_labels.length.toLocaleString();
-    this.sourceCount = this.stats.edge_stats.provided_by.length.toLocaleString();
+    this.edgeCategories = this.stats.edge_stats.predicates.length.toLocaleString();
+    this.sourceCount = this.stats.node_stats.provided_by.length.toLocaleString();
   },
 
   methods: {
